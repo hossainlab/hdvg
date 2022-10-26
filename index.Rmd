@@ -1,0 +1,87 @@
+---
+title: "Data Visualization Gallery"
+author: "Jubayer Hossain"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(plotly)
+library(plyr)
+library(flexdashboard)
+```
+
+
+Distribution
+=======================================================================
+
+Row 
+-----------------------------------------------------------------------
+
+### Histogram 
+
+```{r, echo=TRUE, fig.align="left"}
+plot(iris$Sepal.Length, iris$Sepal.Width)
+``` 
+
+### geom_smooth Linear Regression
+
+
+
+Row
+-----------------------------------------------------------------------
+
+### geom_smooth with Loess Smoothed Fit
+
+
+
+### Constraining Slope with stat_smooth
+
+
+
+Correlation
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### stat_density Example
+
+
+
+### Add Conditional Density Curves to Plot
+
+
+Row
+-----------------------------------------------------------------------
+
+### geom_density and facet_wrap Together
+
+
+### Density and Scatterplot Overlay Using geom_density
+
+
+Ranking
+=======================================================================
+
+
+
+Evolution
+=======================================================================
+
+
+
+Maps
+=======================================================================
+
+
+About
+======================================================================= 
+Welcome to Data Visualization Gellery. I am Jubayer, recent alumni with Bachelor and Master’s in Microbiology. I am the founder of CHIRAL Bangladesh, a non-profit organization dedicated to health research to improve lives in Bangladesh. I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.
+
+This is a short sequence of notes on data visualization, data manipulation, data cleaning, specially in the field of data science written by [Jubayer Hossian](https://jhossain.com/). 
+
